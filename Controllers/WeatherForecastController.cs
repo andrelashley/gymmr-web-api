@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GymmrWebApi.Controllers
 {
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
